@@ -30,7 +30,6 @@ click-plugins==1.1.1
 client==0.0.1
 cligj==0.5.0
 cloudpickle==0.8.0
-clyent==1.2.2
 coincurve==13.0.0
 colorama==0.4.1
 comtypes==1.1.7
