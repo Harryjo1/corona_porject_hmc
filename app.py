@@ -14,11 +14,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import dash_html_components as html
 
-url = 'https://github.com/Harryjo1/corona_porject_hmc/edit/master'
+#url = 'https://github.com/Harryjo1/corona_porject_hmc/edit/master'
 
-data_confirmed = pd.read_csv(url+'time_series_2019-ncov-Confirmed.csv')
-data_death = pd.read_csv(url+'time_series_2019-ncov-Deaths.csv')
-data_recovered = pd.read_csv(url+'time_series_2019-ncov-Recovered.csv')
+data_confirmed = pd.read_csv('time_series_2019-ncov-Confirmed.csv')
+data_death = pd.read_csv('time_series_2019-ncov-Deaths.csv')
+data_recovered = pd.read_csv('time_series_2019-ncov-Recovered.csv')
 
 # data_confirmed = pd.read_csv(r'D:\Neoma\Finnce and big data\data vizualisation\time_series_2019-ncov-Confirmed.csv') 
 # data_death = pd.read_csv(r'D:\Neoma\Finnce and big data\data vizualisation\time_series_2019-ncov-Deaths.csv') 
