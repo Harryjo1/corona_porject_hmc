@@ -208,4 +208,4 @@ def update_graph(date):
     return graphique_Nb_enfant(date)
 
 
-app.run_server(debug = False, port = 8080)
+app.run_server(debug = True)
