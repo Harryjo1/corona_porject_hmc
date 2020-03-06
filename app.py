@@ -210,5 +210,4 @@ app.layout = html.Div([
 def update_graph(date):
     return graphique_Nb_enfant(date)
 
-if __name__ =='__main__':
-  app.run_server(debug = True)
+app.run_server(debug = True)
