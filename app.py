@@ -28,6 +28,8 @@ data_confirmed = data_confirmed.drop(["Lat","Long","Province/State","Country/Reg
 data_death = data_death.drop(["Lat","Long","Province/State","Country/Region"],axis="columns")
 data_recovered = data_recovered.drop(["Lat","Long","Province/State","Country/Region"],axis="columns")
 
+print(data_recovered)
+
 #data_confirmed["1/21/20 22:00"] = data_confirmed["1/21/20 22:00"].fillna(0)
 
 data_confirmed = data_confirmed.fillna(0)
@@ -151,7 +153,7 @@ def graphique_Nb_enfant(annee):
 
 
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css','style.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 #server =app.server
 
