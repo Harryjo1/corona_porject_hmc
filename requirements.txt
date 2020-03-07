@@ -9,3 +9,4 @@ pandas==0.25.3
 datetime
 Ipython
 requests
+certifi
