@@ -4,7 +4,7 @@ import dash
 from dash.dependencies import Input, Output
 
 from IPython import display
-from ipywidgets import interact, widgets
+from ipywidgets import widgets
 from datetime import datetime
 
 
