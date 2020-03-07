@@ -10,3 +10,4 @@ datetime
 Ipython
 requests
 certifi
+dash_bootstrap_components
